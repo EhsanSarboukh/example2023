@@ -62,7 +62,7 @@ public class ThreadCheckArray implements Runnable
 			else 
 				rec(array.size()-1, b); // ** Thread2 takes the action here 
 		if (array.size() == 1)  // ** In case the array list has only one element
-			if (b == array.get(0) && !flag) // ** If b equals this elment change the boolean array in cell 0 to true
+			if (b == array.get(0) && !flag) // ** If b equals this element change the boolean array in cell 0 to true
 			{
 				winArray[0] = true;
 				flag = true;
