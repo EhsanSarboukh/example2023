@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class SharedData 
 {
-	private ArrayList <Integer> array; // **
+	private ArrayList <Integer> array; // ** Set a new array list 
 	private boolean [] winArray;
 	private boolean flag;
 	private final int b;
@@ -23,7 +23,7 @@ public class SharedData
 		this.winArray = winArray;
 	}
 
-	public ArrayList<Integer> getArray()  //**
+	public ArrayList<Integer> getArray()  //** Returns the array list get 
 	{
 		return array;
 	}
